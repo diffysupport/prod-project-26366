@@ -1,0 +1,100 @@
+basic:
+    name: TreeAge
+    environments:
+        production: 'https://treeage.com'
+        staging: 'https://avada-treeage-new.pantheonsite.io'
+        development: ''
+    breakpoints:
+        - 320
+        - 1024
+    pages:
+        - /
+        - /hc-features
+        - /business-features
+        - /capabilities
+        - /hc-features/compare-r-excel
+        - /news
+        - /products
+        - /product/treeage-pro-healthcare
+        - /product/treeage-pro-business
+        - /products/trade-in
+        - /products/licensing
+        - /products/system-requirements
+        - /learn-more
+        - /model_research
+        - /legal
+        - /help/content/home.htm
+        - /learn-more/web-sharing
+        - /learn-more/hazard-functions
+        - /resources
+        - /support/your-license
+        - /support
+        - /support/renew
+        - /support/apply-renewal
+        - /training2/tutorials
+        - /training2/webinars
+        - /resources/whats-new
+        - /help-bus/content/home_for_business.htm
+        - /help-tpweb/content/home_for_tpweb.htm
+        - /help-bus/content/0-tp-bus/3-build-legal-model/0-intro-build-legal-model.htm
+        - /resources/articles
+        - /training2
+        - /training2/schedule
+        - /hc-free-training
+        - /training2/intro-he-course
+        - /trial-download
+        - /cart
+        - /author/simadmin
+        - /hc-features/markov
+        - /hc-features/partsa
+        - /learn-more/patient-level-markov-simulation
+        - /hc-features/cost-effectiveness
+        - /learn-more/sensitivity-analysis
+        - /learn-more/probabilistic-sensitivity
+        - /news/treeage-pro-2025-r1
+        - /easy_model_buliding
+        - /business
+        - /about-us
+        - /about-us/contact-us
+        - /shop
+    monitoring:
+        days: {  }
+        type: ''
+        schedule_time: '12:30 AM'
+        schedule_time_zone: Europe/London
+        compare_with: last-production
+        compare_with_fresh: production
+advanced:
+    mask: ''
+    remove: ''
+    delay: 15
+    scroll: true
+    headers:
+        - { header: '', value: '' }
+    cookies: ''
+    custom_js: ''
+    custom_css: ''
+    mock_content:
+        - { selector: '', type: title }
+    sensitivity: 15
+    night_mode: false
+    retina_images: false
+    login:
+        type: none
+        click_element: false
+        click_element_selector: ''
+        login_url: ''
+        username: ''
+        password: ''
+        username_selector: ''
+        password_selector: ''
+        submit_selector: ''
+        after_login_selector: ''
+    performance:
+        workers_production: 30
+        workers_nonproduction: 10
+        workers_production_delay: 0
+        workers_nonproduction_delay: 0
+    stabilize: true
+proxy: false
+type: single-site
